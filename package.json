@@ -1,0 +1,30 @@
+{
+  "name": "delhi-metro-route-optimizer",
+  "version": "1.0.0",
+  "description": "A backend project that models the Delhi Metro network as a graph and computes optimal routes using a custom Dijkstra implementation.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "dsa",
+    "graph",
+    "dijkstra",
+    "delhi-metro",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.2"
+  }
+}
