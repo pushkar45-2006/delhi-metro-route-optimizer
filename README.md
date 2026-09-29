@@ -6,9 +6,6 @@ built entirely from scratch (own Graph, own MinHeap, no external libraries),
 exposed through an Express REST API, with MongoDB storing a history of past
 searches.
 
-This project was built to be simple, readable, and fully explainable in an
-interview - not to look "enterprise" or clever.
-
 ## Features
 
 - Real Delhi Metro station and line data (Red, Yellow, Blue, Violet lines)
